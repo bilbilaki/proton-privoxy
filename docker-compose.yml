@@ -2,7 +2,6 @@
 
 services:
   proton-privoxy:
-    build: .
     container_name: proton_privoxy_service
     
     cap_add:
